@@ -3,7 +3,7 @@ package DSA;
 public class Dsa {
 
     public static boolean dividedbyitsdigit(int number){
-        while (number>0) {
+        while (number<0) {
             int digit = number%10;
             if(digit==0 || number%digit!=0){
                 return false;
